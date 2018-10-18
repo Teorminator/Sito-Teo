@@ -339,6 +339,7 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .work-request--options input[type="checkbox"]:checked+label svg{width:15px}
 .work-request--information{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:60px}
 .work-request--information .information-name,.work-request--information .information-email{position:relative;width:45%;height:50px;font-size:30px;font-weight:300}
+.work-request--information .information-name,.information-email{position:relative;width:45%;height:50px;font-size:20px;font-weight:300}
 .work-request--information input[type="text"],.work-request--information input[type="email"]{width:100%;padding:0 0 5px 0;background-color:#0a0a0a;border:none;border-bottom:1px solid #fff;border-radius:0}
 .work-request--information input[type="text"]:focus,.work-request--information input[type="email"]:focus{outline:none;background-color:#0a0a0a}
 .work-request--information label{position:absolute;top:0;left:0;pointer-events:none;-webkit-transition:top .2s ease-in-out,font-size .2s ease-in-out;transition:top .2s ease-in-out,font-size .2s ease-in-out}
