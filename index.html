@@ -254,7 +254,7 @@
             <div class="hire">
               <h2>What could we do for you?</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request" method="POST" target="_blank" action="https://formspree.io/tortosa.matteo@gmail.com">
+              <form id="contactform" class="work-request" method="POST" target="_blank">
                 <div class="work-request--options">
                   <span class="options-b">
                     <input id="opt-1" type="checkbox" value="Product Development" name="product development">
@@ -327,21 +327,25 @@
                   </div>
                 
                   <div class="information-email">
-                    <input id="email" type="email" name="_replyto" spellcheck="false">
+                    <input id="email" type="email" name="email" spellcheck="false">
                     <label for="email">Email</label>
                   </div>
                   <div class="information-message">
-                    <textarea id="Message" type="textarea" name="Message" spellcheck="true"></textarea>
+                    <textarea id="Message" type="textarea" name="Message" spellcheck="true" cols="60" rows="5"></textarea>
                     <label for="Message">Message</label>
                     <input type="submit" value="Send">
                   </div>
-                
+                <input type="text" name="_gotcha" style="display:none" />
       
             </div>
 
                     
 </div>
               </form>
+              <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+</script>
 
                 </div>
           </li>

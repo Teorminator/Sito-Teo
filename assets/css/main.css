@@ -343,17 +343,15 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 
 .work-request--information .information-message{position:absolute; margin-top: 75px; width:100%;height:300px;font-size:20px;font-weight:300}
 
-.work-request--information textarea[type="textarea"]{width:100%; height: 200px; padding:0 0 5px 0;background-color:#0a0a0a;border:none;border-bottom:1px solid #fff;border-radius:0}
-.work-request--information textarea[type="textarea"]:focus{outline:none;background-color:#0a0a0a}
+.work-request--information textarea[type="textarea"]{ width:100%; padding:0 0 5px 0;background-color:#0a0a0a;border:none;border-bottom:1px solid #fff;border-radius:0}
 
 .work-request--information input[type="text"],.work-request--information input[type="email"]{width:100%;padding:0 0 5px 0;background-color:#0a0a0a;border:none;border-bottom:1px solid #fff;border-radius:0}
 .work-request--information input[type="text"]:focus,.work-request--information input[type="email"]:focus{outline:none;background-color:#0a0a0a}
 
 .work-request--information label{position:absolute;top:0;left:0;pointer-events:none;-webkit-transition:top .2s ease-in-out,font-size .2s ease-in-out;transition:top .2s ease-in-out,font-size .2s ease-in-out}
+.work-request--information textarea[type="textarea"]+label{top:-30px;}
 
 .work-request--information input:focus+label,.work-request--information input.has-value+label{top:-15px;font-size:14px}
-.work-request--information textarea:focus+label,.work-request--information textarea[type="textarea"]+label {top:-15px;font-size:14px}
-
 
 @media (max-width: 767px){
 	.work-request--options{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around}
