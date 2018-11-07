@@ -1,9 +1,40 @@
-@font-face{font-family:'Montserrat';src:url("fonts/Montserrat-Black.eot");src:local("☺"),url("fonts/Montserrat-Black.woff") format("woff"),url("fonts/Montserrat-Black.ttf") format("truetype"),url("fonts/Montserrat-Black.svg") format("svg");font-weight:900;font-style:normal}
-@font-face{font-family:'Montserrat';src:url("fonts/Montserrat-Bold.eot");src:local("☺"),url("fonts/Montserrat-Bold.woff") format("woff"),url("fonts/Montserrat-Bold.ttf") format("truetype"),url("fonts/Montserrat-Bold.svg") format("svg");font-weight:700;font-style:normal}
+@font-face{
+	font-family:'Montserrat';
+	src:url("fonts/Montserrat-Black.eot");
+	src:local("☺"),url("fonts/Montserrat-Black.woff")
+	format("woff"),url("fonts/Montserrat-Black.ttf")
+	format("truetype"),url("fonts/Montserrat-Black.svg")
+	format("svg");
+	font-weight:900;font-style:normal}
 
-@font-face{font-family:'Montserrat';src:url("fonts/Montserrat-Regular.eot");src:local("☺"),url("fonts/Montserrat-Regular.woff") format("woff"),url("fonts/Montserrat-Regular.ttf") format("truetype"),url("fonts/Montserrat-Regular.svg") format("svg");font-weight:400;font-style:normal}
+@font-face{
+	font-family:'Montserrat';
+	src:url("fonts/Montserrat-Bold.eot");
+	src:local("☺"),url("fonts/Montserrat-Bold.woff")
+	format("woff"),url("fonts/Montserrat-Bold.ttf")
+	format("truetype"),url("fonts/Montserrat-Bold.svg")
+	format("svg");
+	font-weight:700;font-style:normal}
 
-@font-face{font-family:'Montserrat';src:url("fonts/Montserrat-Light.eot");src:local("☺"),url("fonts/Montserrat-Light.woff") format("woff"),url("fonts/Montserrat-Light.ttf") format("truetype"),url("fonts/Montserrat-Light.svg") format("svg");font-weight:300;font-style:normal}
+@font-face{
+	font-family:'Montserrat';
+	src:url("fonts/Montserrat-Regular.eot");
+	src:local("☺"),url("fonts/Montserrat-Regular.woff")
+	format("woff"),url("fonts/Montserrat-Regular.ttf")
+	format("truetype"),
+	url("fonts/Montserrat-Regular.svg")
+	format("svg");
+	font-weight:400;font-style:normal}
+
+
+@font-face{
+	font-family:'Montserrat';
+	src:url("fonts/Montserrat-Light.eot");
+	src:local("☺"),	url("fonts/Montserrat-Light.woff")
+	format("woff"),url("fonts/Montserrat-Light.ttf")
+	format("truetype"),url("fonts/Montserrat-Light.svg")
+	format("svg");
+	font-weight:300;font-style:normal}
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
@@ -107,12 +138,13 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 
 .l-side-nav::before{content:"";position:absolute;top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:2px;height:70%;max-height:750px;background-color:#555;opacity:.35;z-index:10}
 
-@media (max-width: 1180px){.l-side-nav{display:none}
+@media (max-width: 1180px){
+	.l-side-nav{display:none}
 }
 
 .l-main-content{position:relative;width:100%;height:100%;margin:0;padding:0;list-style:none}
 
-.l-section{position:absolute;width:100%;height:100%}
+.l-section{position:absolute;width:100%;height:100%; margin-top: 70px}
 
 .device-notification{display:none;position:fixed;top:0;left:0;width:100%;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:#0c0c0c;z-index:12}
 .device-notification--logo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none;color:#fff}
@@ -130,7 +162,7 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .section--is-active{opacity:1;visibility:visible;z-index:1;-webkit-transition:opacity .4s ease-in-out .4s;transition:opacity .4s ease-in-out .4s}
 .section--next{-webkit-transform:translateY(-45px);transform:translateY(-45px);-webkit-transition:-webkit-transform .4s ease-in-out;transition:-webkit-transform .4s ease-in-out;transition:transform .4s ease-in-out;transition:transform .4s ease-in-out, -webkit-transform .4s ease-in-out}
 .section--prev{-webkit-transform:translateY(45px);transform:translateY(45px);-webkit-transition:-webkit-transform .4s ease-in-out;transition:-webkit-transform .4s ease-in-out;transition:transform .4s ease-in-out;transition:transform .4s ease-in-out, -webkit-transform .4s ease-in-out}
-.header{position:absolute;top:0;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;height:70px;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;z-index:10}
+.header{position:absolute;top:0;left:0; display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;height:70px;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;z-index:10}
 .header--logo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none;color:#fff}
 .header--logo p{margin:0 0 0 10px;font-size:16px;font-weight:700;text-transform:uppercase}
 .header--nav-toggle{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:50px;height:50px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;cursor:pointer}
@@ -167,7 +199,7 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .intro--banner{position:relative;height:475px}
 .intro--banner::before{content:"";position:absolute;bottom:20px;left:-15px;right:0;height:2px;background-color:#282828}
 .intro--banner::after{content:"";position:absolute;bottom:18px;left:0;width:30px;height:4px;background-color:#696969}
-.intro--banner h1{position:relative;font-size:68px;font-weight:900;line-height:1;z-index:1; margin-top: 0}
+.intro--banner h1{ position:relative;font-size:68px;font-weight:900;line-height:1;z-index:1; margin-top: 0}
 .intro--banner h3{position:relative;line-height:1.5;z-index:1; width: 450px;}
 .intro--banner button{position:relative;padding:5px 17px 5px 12px;font-weight:700;text-transform:uppercase;background-color:transparent;border:none;z-index: 10}
 .intro--banner button .btn-background{position:absolute;top:0;left:23px;right:0;height:100%;background-color:#696969;z-index:-1;-webkit-transition:left .2s ease-in-out;transition:left .2s ease-in-out}
@@ -197,6 +229,7 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .intro--banner h1{font-size:44px}
 .intro--banner img{width:330px}
 .intro--options{display:block}
+.intro--options a p{display: none;}
 .intro--options>a{display:block;max-width:100%;margin:0 0 30px 0}
 .intro--options>a:last-child{margin-bottom:0}
 }
@@ -212,8 +245,8 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .work{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:960px;max-width:80%;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:0 auto}
 @media (max-width: 1180px){.work{max-width:100%}
 }
-.work h2{margin:0 0 20px 0;font-size:30px;text-align:center}
-.work--lockup{position:relative}
+.work h2{margin:0;font-size:30px;text-align:center}
+.work--lockup{position:relative; margin-bottom: 100px}
 .work--lockup .slider{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:80%;margin:0 auto;padding:0;list-style:none}
 .work--lockup .slider--item{position:absolute;display:none;text-align:center}
 .work--lockup .slider--item a{text-decoration:none;color:#858585}
