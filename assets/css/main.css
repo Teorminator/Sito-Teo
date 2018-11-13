@@ -291,10 +291,10 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .about--banner a{position:relative; padding:5px 17px 5px 0;text-decoration:none;color:#fff;font-weight:700;text-transform:uppercase;background-color:transparent}
 .about--banner a:hover svg{left:10px}
 .about--banner a svg{position:relative;left:5px;width:15px;fill:#fff;-webkit-transition:left .2s ease-in-out;transition:left .2s ease-in-out}
-.about--banner img{position:absolute;margin: auto; top: 0px;right:-50px;width: 900px}
+.about--banner img{position:absolute;margin: auto; top: 0px;right:-50px;width: auto}
 
 .about--options{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:900px;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-top:0;padding:0;list-style:none}
-.about--options>a{position:relative;width:150px;height:75px;text-decoration:none;color:#fff;border:10px solid #696969;background-position:center;background-size:cover;background-repeat:no-repeat}
+.about--options>a{position:relative;width:150px;height:75px;text-decoration:none;color:#fff;border:6px solid #696969;background-position:center;background-size:cover;background-repeat:no-repeat}
 .about--options>a:nth-child(1){background-image:url("../img/Index/sheep.png");filter: grayscale(100%);}
 .about--options>a:nth-child(2){background-image:url("../img/Index/design.png");filter: grayscale(100%);}
 .about--options>a:nth-child(3){background-image:url("../img/Index/rend.png");filter: grayscale(100%);}
@@ -305,7 +305,7 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 
 
 .op2{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:900px;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-top:0;padding:0;list-style:none}
-.op2>a{position:relative;width:150px;height:75px;text-decoration:none;color:#fff;border:10px solid #696969;background-position:center;background-size:cover;background-repeat:no-repeat}
+.op2>a{position:relative;width:150px;height:75px;text-decoration:none;color:#fff;border:6px solid #696969;background-position:center;background-size:cover;background-repeat:no-repeat}
 .op2>a:nth-child(1){background-image:url("../img/Index/concept.png");filter: grayscale(100%);}
 .op2>a:nth-child(2){background-image:url("../img/Index/test-dummy.png");filter: grayscale(100%);}
 .op2>a:nth-child(3){background-image:url("../img/Index/events.png");filter: grayscale(100%);}
