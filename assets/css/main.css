@@ -213,6 +213,12 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .intro--banner .titolo h2{font-size: 3.5em;}
 .intro--banner .introcontainer {position: absolute;height: 450px;z-index: 0}
 
+.intro--banner2{position:relative;height:475px; width: 922px}
+.intro--banner2::before{content:"";position:absolute;bottom:20px;left:-15px;right:0;height:2px;background-color:#282828}
+.intro--banner2::after{content:"";position:absolute;bottom:18px;left:0;width:30px;height:4px;background-color:#696969}
+.intro--banner2 img{position:relative;margin: 0 20px;height: 360px;z-index:-1}
+.intro--banner2.titolo h2{font-size: 3.5em;}
+
 .intro--options{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin:0;padding:0;list-style:none}
 .intro--options>a{max-width:200px;text-decoration:none;color:#282828;-webkit-transition:color .2s ease-in-out;transition:color .2s ease-in-out}
 .intro--options>a:hover{color:#fff}
@@ -258,6 +264,7 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .work--lockup .slider--item-image img{width:100%;margin-top:auto;margin-bottom:0px}
 .work--lockup .slider--item-left{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%);display:block}
 .work--lockup .slider--item-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%);display:block}
+.work--lockup .slider--item-right2{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%);display:none;}
 .work--lockup .slider--item-center{position:relative;top:30px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);display:block}
 .work--lockup .slider--item-center a{color:#fff}
 .work--lockup .slider--item-center .slider--item-title{margin-top:25px;font-size:16px}
@@ -291,7 +298,7 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .about--banner a{position:relative; padding:5px 17px 5px 0;text-decoration:none;color:#fff;font-weight:700;text-transform:uppercase;background-color:transparent}
 .about--banner a:hover svg{left:10px}
 .about--banner a svg{position:relative;left:5px;width:15px;fill:#fff;-webkit-transition:left .2s ease-in-out;transition:left .2s ease-in-out}
-.about--banner img{position:absolute;margin: auto; top: 0px;right:-50px;width: auto}
+.about--banner img{position:absolute;margin: auto; bottom:21px;right:-50px;width: auto}
 
 .about--options{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:900px;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-top:0;padding:0;list-style:none}
 .about--options>a{position:relative;width:150px;height:75px;text-decoration:none;color:#fff;border:6px solid #696969;background-position:center;background-size:cover;background-repeat:no-repeat}
