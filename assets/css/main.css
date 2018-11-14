@@ -504,8 +504,11 @@ flex-direction:column;
 -ms-flex-pack:center;
 justify-content:center;
 margin:0 auto}
-@media (max-width: 1180px){.intro{max-width:100%}
+@media (max-width: 1180px){
+	.intro{max-width:100%}
 }
+.intro--banner2{position:relative;
+height:475px}
 .intro--banner{position:relative;
 height:475px}
 .intro--banner::before{content:"";
@@ -844,15 +847,17 @@ height:190px}
 
 .about--banner{position:relative;
  margin-bottom: 20px}
+
 .about--banner::before{content:"";
 position:absolute;
-top:20px;
-left:200px;
+top:35%;
+left:15%;
 -webkit-transform:rotate(-25deg);
 transform:rotate(-25deg);
 border:5px solid #696969;
 border-right-color:transparent;
 border-bottom-color:transparent}
+
 .about--banner::after{content:"";
 position:absolute;
 top:75px;
@@ -862,12 +867,76 @@ transform:rotate(45deg);
 width:10px;
 height:10px;
 background-color:#696969}
+
+.intro2--banner img{
+position:absolute;
+bottom: 30%;
+left:-14px;
+}
+
+.intro2--banner h1{
+position:absolute;
+bottom: 60%;
+left:-14px;
+}
+
+
+.intro2--banner::before{
+content:"";
+position:absolute;
+top:20%;
+left:200px;
+-webkit-transform:rotate(-25deg);
+transform:rotate(-25deg);
+border:150px solid #696969;
+border-right-color:transparent;
+border-bottom-color:transparent}
+
+.intro2--banner::after{content:"";
+position:absolute;
+top:45%;
+left:400px;
+-webkit-transform:rotate(45deg);
+transform:rotate(-65deg);
+width:655px;
+height:30px;
+background-color:#696969;
+}
+
+.intro2--banner h2::after{content:"";
+position:absolute;
+top:75%;
+left:100px;
+-webkit-transform:rotate(45deg);
+transform:rotate(45deg);
+width:100px;
+height:80px;
+background-color:#696969}
+
+.about--banner h2::before{content:"";
+position:absolute;
+top:60px;
+left:268px;
+width:30px;
+height:30px;
+background-color:#696969;
+border-radius:50%}
+
+.about--banner h2::after{content:"";
+position:absolute;
+top:255px;
+left:255px;
+width:10px;
+height:10px;
+background-color:#696969}
+
 .about--banner h2{position:relative;
 margin-top:35px;
 font-size:68px;
 font-weight:900;
 line-height:1;
 z-index:1}
+
 .about--banner h2::before{content:"";
 position:absolute;
 top:60px;
@@ -891,6 +960,7 @@ font-weight:700;
 text-transform:uppercase;
 background-color:transparent}
 .about--banner a:hover svg{left:10px}
+
 .about--banner a svg{position:relative;
 left:5px;
 width:15px;
@@ -1120,7 +1190,8 @@ font-weight:700}
 
 
 
-.hire{position:relative;
+.hire{
+	position:relative;
 display:-webkit-box;
 display:-webkit-flex;
 display:-ms-flexbox;
@@ -1128,6 +1199,7 @@ display:flex;
 width:700px;
 max-width:75%;
 height:100%;
+top:-12%;
 -webkit-box-orient:vertical;
 -webkit-box-direction:normal;
 -webkit-flex-direction:column;
@@ -1138,7 +1210,9 @@ flex-direction:column;
 -ms-flex-pack:center;
 justify-content:center;
 margin:0 auto}
-@media (max-width: 1180px){.hire{max-width:100%}
+
+@media (max-width: 1180px){
+	.hire{max-width:100%}
 }
 .hire h2{margin:0 0 20px 0;
 font-size:30px;
