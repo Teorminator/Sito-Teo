@@ -191,6 +191,8 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 .side-nav li:nth-child(5)::before{content:"05"}
 
 
+.side-nav li:nth-child(6)::before{content:"06"}
+
 .side-nav li.is-active{color:#696969 ;-webkit-transition:color .4s ease-in-out;transition:color .4s ease-in-out}
 .side-nav li.is-active span{opacity:1;visibility:visible;-webkit-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out}
 .side-nav li.is-active::before{left:-33px;color:#fff}
@@ -345,6 +347,8 @@ body{background-color:#0a0a0a;font-size:14px;line-height:1.6;font-family:"Montse
 }
 .contact{position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("../img/Index/contact-visual 2.png");background-position:center;background-size:all;background-repeat:no-repeat}
 .contact2{position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("../img/Sheep/sheep-visual.png");background-position:center;background-size:40%;background-repeat:no-repeat}
+.contact3{position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("../img/Graffio/1.png");background-position:center;background-size:40%;background-repeat:no-repeat}
+.contact4{position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("../img/Graffio/2.png");background-position:center;background-size:40%;background-repeat:no-repeat}
 
 .contact--lockup{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:475px;width:900px;max-width:75%;height:100%;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin:0 auto}
 
