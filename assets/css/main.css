@@ -905,12 +905,12 @@ background-color:#696969;
 
 .intro2--banner h2::after{content:"";
 position:absolute;
-top:75%;
-left:100px;
+top:53%;
+left:-100px;
 -webkit-transform:rotate(45deg);
 transform:rotate(45deg);
-width:100px;
-height:80px;
+width:490px;
+height:63px;
 background-color:#696969}
 
 .about--banner h2::before{content:"";
