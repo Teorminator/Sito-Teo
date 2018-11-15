@@ -1209,7 +1209,6 @@ display:flex;
 width:700px;
 max-width:75%;
 height:80%;
-top:-12%;
 -webkit-box-orient:vertical;
 -webkit-box-direction:normal;
 -webkit-flex-direction:column;
@@ -1221,8 +1220,9 @@ flex-direction:column;
 justify-content:center;
 margin:0 auto}
 
-@media (max-width: 1180px){
-	.hire{max-width:100%}
+@media (max-width: 1440px){
+	.hire{max-width:100%;
+		top:-10%;}
 }
 .hire h2{margin:0 0 20px 0;
 font-size:30px;
