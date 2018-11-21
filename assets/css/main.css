@@ -625,13 +625,17 @@ list-style:none}
 .intro--options>a{max-width:200px;
 text-decoration:none;
 color:#282828;
-border: 1px solid #696969;
+border: 1px solid #282828;
 border-radius: 5px;
 border-spacing: 2px;
 padding: 10px;
 -webkit-transition:color .2s ease-in-out;
 transition:color .2s ease-in-out}
-.intro--options>a:hover{color:#fff}
+.intro--options>a:hover{color:#fff;
+border: 1px solid #fff;
+border-radius: 5px;
+border-spacing: 2px;
+padding: 10px;}
 .intro--options h3{ font-size:16px;
 text-transform:uppercase;
 margin-top: 0px}
