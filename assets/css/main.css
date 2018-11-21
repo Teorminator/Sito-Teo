@@ -501,7 +501,7 @@ display:-webkit-box;
 display:-webkit-flex;
 display:-ms-flexbox;
 display:flex;
-width:900px;
+width:940px;
 max-width:75%;
 height:100%;
 -webkit-box-orient:vertical;
@@ -625,11 +625,16 @@ list-style:none}
 .intro--options>a{max-width:200px;
 text-decoration:none;
 color:#282828;
+border: 1px solid #696969;
+border-radius: 5px;
+border-spacing: 2px;
+padding: 10px;
 -webkit-transition:color .2s ease-in-out;
 transition:color .2s ease-in-out}
 .intro--options>a:hover{color:#fff}
 .intro--options h3{ font-size:16px;
-text-transform:uppercase}
+text-transform:uppercase;
+margin-top: 0px}
 .intro--options p{margin-bottom:0}
 @media (max-width: 900px){
 .intro--banner{height:380px}
