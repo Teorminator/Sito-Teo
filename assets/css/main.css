@@ -645,7 +645,6 @@ margin-top: 0px}
 	bottom: 20px; 
 }
 .intro--scroll svg{
-
 position:relative;
 top: 2px;
 left:5px;
@@ -1553,10 +1552,7 @@ transition-delay:.12s}
 .outer-nav li.is-vis:nth-child(5){-webkit-transition-delay:.16s;
 transition-delay:.16s}
 
-.pulse a{
-  box-shadow: 0 0 0 rgba(40,40,40, 1);
-  animation: pulse 3s infinite;
-}
+
 .scroll--pulse h3{
     -webkit-animation: pulsate 20s ease-out;
     -webkit-animation-iteration-count: infinite; 
@@ -1577,7 +1573,10 @@ transition-delay:.16s}
     }
 }
 
-
+.pulse a{
+  box-shadow: 0 0 0 rgba(40,40,40, 1);
+  animation: pulse 3s infinite;
+}
 }
 .pulse:hover {
   animation: none;
