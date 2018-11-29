@@ -652,9 +652,8 @@ width:15px;
 fill:#fff;
 transform: rotate(90deg);
 -webkit-transition:left .2s ease-in-out;
-transition:left .2s ease-in-out}
+transition:left .2s ease-in-out;}
 
-}
 .intro--scroll h3{font-size: 1em;
 color: #282828;}
 @media (max-width: 900px){
