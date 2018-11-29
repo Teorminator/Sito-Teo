@@ -640,6 +640,24 @@ padding: 10px;}
 text-transform:uppercase;
 margin-top: 0px}
 .intro--options p{margin-bottom:0}
+.intro--scroll{
+	position: absolute;
+	bottom: 20px; 
+}
+.intro--scroll svg{
+
+position:relative;
+top: 2px;
+left:5px;
+width:15px;
+fill:#fff;
+transform: rotate(90deg);
+-webkit-transition:left .2s ease-in-out;
+transition:left .2s ease-in-out}
+
+}
+.intro--scroll h3{font-size: 1em;
+color: #282828;}
 @media (max-width: 900px){
 .intro--banner{height:380px}
 .intro--banner h1{font-size:55px}
@@ -1535,3 +1553,59 @@ transition-delay:.12s}
 .outer-nav li.is-vis:nth-child(5){-webkit-transition-delay:.16s;
 transition-delay:.16s}
 
+.pulse a{
+  box-shadow: 0 0 0 rgba(40,40,40, 1);
+  animation: pulse 3s infinite;
+}
+.scroll--pulse h3{
+    -webkit-animation: pulsate 30s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0;
+    }
+    50% { 
+        opacity: 0.0;
+    }
+    70%{
+    	opacity: 0.8;
+    }
+    100% { 
+        opacity: 0;
+    }
+}
+
+
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(40,40,40, 1);
+  }
+  50%{
+  	   -webkit-box-shadow: 0 0 0 10px rgba(40,40,40, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(40,40,40, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(40,40,40, 1);
+    box-shadow: 0 0 0 0 rgba(40,40,40, 1);
+  }
+  50% {
+      -moz-box-shadow: 0 0 0 8px rgba(40,40,40, 0);
+      box-shadow: 0 0 0 8px rgba(40,40,40, 0);
+  }
+  
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(40,40,40, 0);
+      box-shadow: 0 0 0 0 rgba(40,40,40, 0);
+  }
+}
