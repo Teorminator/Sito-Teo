@@ -647,9 +647,10 @@ margin-top: 0px}
 .intro--scroll svg{
 position:relative;
 top: 2px;
-left:5px;
+left:8px;
 width:15px;
-fill:#fff;
+margin-right: 18px;
+fill:#696969;
 transform: rotate(90deg);
 -webkit-transition:left .2s ease-in-out;
 transition:left .2s ease-in-out;}
@@ -1559,7 +1560,7 @@ transition-delay:.16s}
 }
 @-webkit-keyframes pulsate {
     0% { 
-        opacity: 0;
+        opacity: 0.0;
     }
     50% { 
         opacity: 0.0;
@@ -1568,17 +1569,18 @@ transition-delay:.16s}
     	opacity: 0.5;
     }
     100% { 
-        opacity: 0;
+        opacity: 0.0;
     }
 }
 .scroll--pulse svg{
-    -webkit-animation: pulsate 20s ease-out;
+
+   -webkit-animation: pulsate 20s ease-out;
     -webkit-animation-iteration-count: infinite; 
     opacity: 0.5;
 }
 @-webkit-keyframes pulsate {
     0% { 
-        opacity: 0;
+        opacity: 0.0;
     }
     50% { 
         opacity: 0.0;
@@ -1587,7 +1589,7 @@ transition-delay:.16s}
     	opacity: 0.5;
     }
     100% { 
-        opacity: 0;
+        opacity: 0.0;
     }
 }
 .pulse a{
