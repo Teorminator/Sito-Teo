@@ -1571,7 +1571,25 @@ transition-delay:.16s}
         opacity: 0;
     }
 }
-
+.scroll--pulse svg{
+    -webkit-animation: pulsate 20s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0;
+    }
+    50% { 
+        opacity: 0.0;
+    }
+    70%{
+    	opacity: 0.5;
+    }
+    100% { 
+        opacity: 0;
+    }
+}
 .pulse a{
   box-shadow: 0 0 0 rgba(40,40,40, 1);
   animation: pulse 3s infinite;
