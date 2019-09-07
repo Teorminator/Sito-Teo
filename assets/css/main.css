@@ -812,7 +812,7 @@ height:190px}
 }
 
 .about{
-	position:relative;
+	position:sticky;
 
 	display:-webkit-box;
 
@@ -853,11 +853,12 @@ height:190px}
 
 @media (max-width: 1440px){
 	.about{
+		position: sticky;
 		max-width:100%;
 
 		max-height:750px;
 
-		top:-5%;
+
 
 		}
 	.about img{top:50px;
@@ -1129,9 +1130,8 @@ left:205px}
 .skills{display: none;
 }
 }
-.contact{position:fixed;
-top:0;
-left:0;
+.contact{position:absolute;
+
 width:100%;
 height:100%;
 background-image:url("../img/Index/contact-visual 2.png");
@@ -1271,7 +1271,7 @@ background-color:#696969;
 border:none;
 border-radius:0}
 .work-request input[type="submit"]:focus{outline:none}
-.work-request--options{display:-webkit-box;
+.work-request--options{display:none;
 display:-webkit-flex;
 display:-ms-flexbox;
 display:flex;
@@ -1323,7 +1323,7 @@ width:0;
 fill:#fff;
 -webkit-transition:width .2s ease-in-out;
 transition:width .2s ease-in-out}
-.work-request--options input[type="checkbox"]{display:none}
+.work-request--options input[type="checkbox"]{display:none;}
 .work-request--options input[type="checkbox"]:checked+label{background-color:#696969;
 border-color:#696969;
 }
@@ -1381,7 +1381,9 @@ transition:top .2s ease-in-out,font-size .2s ease-in-out}
 font-size:14px}
 
 @media (max-width: 767px){
-	.work-request--options{-webkit-box-orient:horizontal;
+	.work-request--options{
+display: none;
+		-webkit-box-orient:horizontal;
 -webkit-box-direction:normal;
 -webkit-flex-direction:row;
 -ms-flex-direction:row;
